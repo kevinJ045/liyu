@@ -1,7 +1,6 @@
 import { Frame, Section, $ } from "./libs/gui.js";
 import Swiper from "./libs/swiper.js";
 import { pickRandom, randFrom } from "./libs/rand.js";
-import { name } from "./info.js";
 import axios from "axios";
 
 const logic = {};
