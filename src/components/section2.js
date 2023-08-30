@@ -16,7 +16,7 @@ Section2.html(`
 		<div class="row">
 			<div class="col-md-8 col-sm-12 p-3">
 				<div class="title-3">Our <br /><b>Expertise</b></div>
-				<div class="subtitle-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit</div>
+				<div class="subtitle-3">Our team boasts diverse expertise in web development, design, SEO, content creation, and digital marketing. We offer customizable solutions designed to meet your business goals precisely. Our commitment lies in producing measurable outcomes, enriching your online visibility, and fostering genuine engagement. Beyond website and marketing services, we provide comprehensive solutions, including social media strategy and website management.</div>
 			</div>
 			<div class="col-md-4 col-sm-12">
 				<div class="card-orangotan">

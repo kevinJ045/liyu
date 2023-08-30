@@ -8,46 +8,50 @@ Team.html(`
 	<div class="swiper swiper-team">
 		<div class="swiper-wrapper">
     		<div class="swiper-slide">
-    			<div class="person-card">
-    				<img src="./img/person.png" class="person-image" />
-    				<div class="person-name">Person</div>
+    			<div class="person-card" data-page="">
+    				<img src="./img/person-1.jpg" class="person-image" />
+    				<div class="person-name">Solomon Tigabu</div>
+    				<div class="person-role">CEO</div>
     				<div class="icons">
-    					<a href=""><svg class="icon-svg icon-twitter"><path /></svg></a>
-						<a href=""><svg class="icon-svg icon-lin"><path /></svg></a>
-						<a href=""><svg class="icon-svg icon-tg"><path /></svg></a>
+							<a href="mailto:soltig66@gmail.com"><svg class="icon-svg icon-email"><path /></svg></a>
+							<a href="https://www.linkedin.com/in/sol-tig/"><svg class="icon-svg icon-lin"><path /></svg></a>
+							<a href="https://t.me/Sol_Tig"><svg class="icon-svg icon-tg"><path /></svg></a>
     				</div>
     			</div>
     		</div>
     		<div class="swiper-slide">
     			<div class="person-card">
-    				<img src="./img/person.png" class="person-image" />
-    				<div class="person-name">Person</div>
+    				<img src="./img/person-2.png" class="person-image" />
+    				<div class="person-name">Biniyam Daniel</div>
+    				<div class="person-role">CTO</div>
     				<div class="icons">
-    					<a href=""><svg class="icon-svg icon-twitter"><path /></svg></a>
-						<a href=""><svg class="icon-svg icon-lin"><path /></svg></a>
-						<a href=""><svg class="icon-svg icon-tg"><path /></svg></a>
+    					<a href="https://biniyamdaniel.vercel.app/"><svg class="icon-svg icon-email"><path /></svg></a>
+							<a href="https://www.linkedin.com/in/b1n1yam/"><svg class="icon-svg icon-lin"><path /></svg></a>
+							<a href="https://t.me/B1n1yam"><svg class="icon-svg icon-tg"><path /></svg></a>
     				</div>
     			</div>
     		</div>
     		<div class="swiper-slide">
-    			<div class="person-card">
-    				<img src="./img/person.png" class="person-image" />
-    				<div class="person-name">Person</div>
+    			<div class="person-card" data-page="">
+    				<img src="./img/person-3.jpg" class="person-image" />
+    				<div class="person-name">Enqu Tewodros</div>
+    				<div class="person-role">Digital Marketer</div>
     				<div class="icons">
-    					<a href=""><svg class="icon-svg icon-twitter"><path /></svg></a>
-						<a href=""><svg class="icon-svg icon-lin"><path /></svg></a>
-						<a href=""><svg class="icon-svg icon-tg"><path /></svg></a>
+							<a href="mailto:enquted2211@gmail.com"><svg class="icon-svg icon-email"><path /></svg></a>
+							<a href=""><svg class="icon-svg icon-lin"><path /></svg></a>
+							<a href=""><svg class="icon-svg icon-tg"><path /></svg></a>
     				</div>
     			</div>
     		</div>
     		<div class="swiper-slide">
-    			<div class="person-card">
-    				<img src="./img/person.png" class="person-image" />
-    				<div class="person-name">Person</div>
+    			<div class="person-card" data-page="">
+    				<img src="./img/person-4.png" class="person-image" />
+    				<div class="person-name">Esubalew Bitew</div>
+    				<div class="person-role">Full Stack Dev</div>
     				<div class="icons">
-    					<a href=""><svg class="icon-svg icon-twitter"><path /></svg></a>
-						<a href=""><svg class="icon-svg icon-lin"><path /></svg></a>
-						<a href=""><svg class="icon-svg icon-tg"><path /></svg></a>
+							<a href="mailto:esubalewbitew13@gmail.com"><svg class="icon-svg icon-email"><path /></svg></a>
+							<a href="https://www.linkedin.com/in/esubalew-bitew/"><svg class="icon-svg icon-lin"><path /></svg></a>
+							<a href=""><svg class="icon-svg icon-tg"><path /></svg></a>
     				</div>
     			</div>
     		</div>

@@ -9,23 +9,23 @@ Work.html(`
 			<div class="swiper-wrapper">
 	    		<div class="swiper-slide">
 	    			<div class="work-card">
-	    				<img src="./img/work-1.png" class="work-image" />
-	    				<div class="title">Artem - Digital Marketing campaign</div>
-	    				<div class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</div>
+	    				<img src="./img/work-1.webp" class="work-image" />
+	    				<div class="title">Qinash</div>
+	    				<div class="description">A marketplace for discounted products.</div>
 	    			</div>
 	    		</div>
 	    		<div class="swiper-slide">
 	    			<div class="work-card">
-	    				<img src="./img/work-2.png" class="work-image" />
-	    				<div class="title">Mayhem - Search engine Optimization</div>
-	    				<div class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</div>
+	    				<img src="./img/work-2.webp" class="work-image" />
+	    				<div class="title">MOE - Dashboard</div>
+	    				<div class="description">A Dashboard for the ministry of education.</div>
 	    			</div>
 	    		</div>
 	    		<div class="swiper-slide">
 	    			<div class="work-card">
-	    				<img src="./img/work-3.png" class="work-image" />
-	    				<div class="title">Basic - Pay per click (PPC)</div>
-	    				<div class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</div>
+	    				<img src="./img/work-3.webp" class="work-image" />
+	    				<div class="title">The Expert</div>
+	    				<div class="description">A datascience based ERP platform</div>
 	    			</div>
 	    		</div>
 	    	</div>

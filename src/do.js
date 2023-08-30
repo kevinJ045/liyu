@@ -141,7 +141,14 @@ logic.init = () => {
 		$(':root').animate({
 			scrollTop: $('#'+$(this).attr('navto')).offset()?.top
 		});
-	})
+	});
+
+
+
+	$('.person-card').click(function(){
+		let page = $(this).data('page');
+		open(page);
+	});
 
 }
 
