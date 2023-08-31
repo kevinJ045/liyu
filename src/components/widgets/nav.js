@@ -62,12 +62,12 @@ class NavBar extends $ {
 </div>`);
 		
 		const buttons = [
-			'Pricing',
+			'Home',
 			'Services',
-			'Portfolio',
+			'Team',
 			navlogo,
-			'About Us',
-			'Blogs',
+			'Works',
+			'Testimonials',
 			'Contact Us'
 		];
 
@@ -82,10 +82,10 @@ class NavBar extends $ {
 				return;
 			}
 			var btn = `<li class="nav-item">
-		        <a class="nav-link" href="#${text.toLowerCase().replace(/\w+/, '_')}">${text}</a>
+		        <a class="nav-link" href="#${text.toLowerCase().replace(/\W+/, '_')}">${text}</a>
 		      </li>`;
 			buttonsHtml += btn;
-		    allButtons += btn;
+		  allButtons += btn;
 		});
 
 		allButtons += `<div class="icons">

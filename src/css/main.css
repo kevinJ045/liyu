@@ -237,6 +237,7 @@ button{
 	backdrop-filter: blur(5px);
 	border-radius: 25px;
 	position: relative;
+	text-decoration: none;
 }
 
 .contact-us-button:before{
@@ -529,6 +530,7 @@ b:not([a]){
 
 .testimonial{
 	width: 300px;
+	max-width: 100%;
 	padding: 10px;
 	background: var(--theme-color-1);
 	color: white;
@@ -805,6 +807,12 @@ ul.info li i{
 
 	.contact-us-section .send-message{
 		margin: 0;
+		width: calc(100vw - 40px);
+		overflow: hidden;
+	}
+
+	.contact-us-section .send-message .form{
+		margin-left: -22%;
 	}
 
 	.contact-us-section .direct-contact .or-btn{
@@ -838,6 +846,20 @@ ul.info li i{
 
 	.footer-grid-1, .footer .links{
 		flex-direction: column;
+	}
+
+	.footer, .footer-inner {
+		height: auto !important;
+	}
+
+	.work-card{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.section-section-2{
+		height: auto;
+		padding-bottom: 40px;
 	}
 
 }
@@ -894,4 +916,37 @@ body{
 	font-size: 22px;
 	color: white;
 	font-weight: 500;
+}
+
+.fab{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	color: var(--theme-accent);
+	background: var(--theme-color-1);
+	line-height: 88px;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+	z-index: 99;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.fab i{
+	font-variation-settings:
+		'FILL' 1,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 24;
+	font-size: 32px;
+}
+
+.fab:hover{
+	background: var(--theme-accent);
+	color: var(--theme-color-1);
+	transform: scale(1.2);
+	box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.3);
 }

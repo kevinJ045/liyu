@@ -24,12 +24,12 @@ Footer.append(`
 				LIYU
 			</div>
 			<div class="links">
-				<a href="">Home</a>
-				<a href="">Services</a>
-				<a href="">About Us</a>
-				<a href="">Contact</a>
-				<a href="">Testimonials</a>
-				<a href="">Blogs</a>
+				<a href="#home">Home</a>
+				<a href="#services">Services</a>
+				<a href="#team">Team</a>
+				<a href="#contact_us">Contact</a>
+				<a href="#testimonials">Testimonials</a>
+				<a href="#works">Works</a>
 			</div>
 			<div class="icons">
 				<a href="https://www.instagram.com/liyusoftwaresolutions"><svg class="icon-svg icon-fb"><path /></svg></a>

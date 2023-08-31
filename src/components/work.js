@@ -1,6 +1,6 @@
 import { Frame, Section, $ } from "../libs/gui.js";
 
-const Work = new Section('work', 'work');
+const Work = new Section('works', 'work');
 
 Work.html(`
 	<div class="worked stuff">

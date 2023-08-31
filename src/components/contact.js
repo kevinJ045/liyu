@@ -1,6 +1,6 @@
 import { Frame, Section, $ } from "../libs/gui.js";
 
-const Contact = new Section('contact', 'contact');
+const Contact = new Section('contact_us', 'contact');
 
 
 Contact.html(`

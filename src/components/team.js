@@ -55,6 +55,18 @@ Team.html(`
     				</div>
     			</div>
     		</div>
+				<div class="swiper-slide">
+    			<div class="person-card">
+    				<img src="./img/person-5.jpg" class="person-image" />
+    				<div class="person-name">Mohammed</div>
+    				<div class="person-role">Full Stack Dev</div>
+    				<div class="icons">
+    					<a href="https://portfolio-kevinj045.vercel.app/"><svg class="icon-svg icon-email"><path /></svg></a>
+							<a href="https://www.linkedin.com/in/b1n1yam/"><svg class="icon-svg icon-lin"><path /></svg></a>
+							<a href="https://t.me/bushyice"><svg class="icon-svg icon-tg"><path /></svg></a>
+    				</div>
+    			</div>
+    		</div>
     	</div>
 	</div>
 	<button class="common-btn">View Team</button>

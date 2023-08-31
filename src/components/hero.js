@@ -7,7 +7,7 @@ Hero.html(`
 	<div class="hero-inner">
 		<div class="title-1">Need Unique Solutions?</div>
 		<div class="subtitle-1">providing unique and custom web, software, multi-platform solutions <br />for Enterprise and Startup companies in Ethiopia.</div>
-		<button class="contact-us-button" navto="contact">Contact Us</button>
+		<a class="contact-us-button" navto="contact" href="#contact_us">Contact Us</a>
 		<div class="social-media-icons">
 			<a href=""><svg class="icon-svg icon-twitter"><path /></svg></a>
 			<a href=""><svg class="icon-svg icon-lin"><path /></svg></a>
@@ -71,7 +71,7 @@ Hero.html(`
 	    	</div>
 	    </div>
 
-	    <div class="hero-m">
+	    <div class="hero-m" id="home">
 	    	<div class="row">
 		    	<div class="col-md-6 col-sm-4">
 		    		<img class="hero-person" src="./img/hero-person.png" />

@@ -2,6 +2,7 @@ import { Frame, Section, $ } from "./libs/gui.js";
 import Swiper from "./libs/swiper.js";
 import { pickRandom, randFrom } from "./libs/rand.js";
 import axios from "axios";
+import { Modal } from "bootstrap";
 
 const logic = {};
 
@@ -148,6 +149,12 @@ logic.init = () => {
 	$('.person-card').click(function(){
 		let page = $(this).data('page');
 		open(page);
+	});
+
+	let modal = new Modal('#demoModal');
+	$('#demoModal').find('.close').on('click', () => modal.toggle());
+	$('.fab').on('click', () => {
+		modal.toggle();
 	});
 
 }

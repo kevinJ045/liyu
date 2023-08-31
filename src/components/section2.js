@@ -1,6 +1,6 @@
 import { Frame, Section, $ } from "../libs/gui.js";
 
-const Section2 = new Section('section-2', 'section-2');
+const Section2 = new Section('services', 'section-2');
 
 Section2.html(`
 	<div class="design-elements">
