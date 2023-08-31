@@ -88,7 +88,12 @@ class NavBar extends $ {
 		    allButtons += btn;
 		});
 
-
+		allButtons += `<div class="icons">
+		<a href="https://www.instagram.com/liyusoftwaresolutions"><svg class="icon-svg icon-fb"><path /></svg></a>
+		<a href="https://www.instagram.com/liyusoftwaresolutions"><svg class="icon-svg icon-insta"><path /></svg></a>
+		<a href="https://twitter.com/liyusoftwaresolutions"><svg class="icon-svg icon-twitter"><path /></svg></a>
+		<a href="https://www.linkedin.com/in/liyusoftwaresolutions"><svg class="icon-svg icon-lin"><path /></svg></a>
+	</div>`;
 
 		buttonsHtml += '</ul>';
 		allButtons += '</ul>';
