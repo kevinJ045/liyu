@@ -157,6 +157,10 @@ logic.init = () => {
 		modal.toggle();
 	});
 
+	$('.nav-link').on('click', () => {
+		if($('nav').hasClass('active')) $('nav').removeClass('active');
+	});
+
 }
 
 export default logic;
